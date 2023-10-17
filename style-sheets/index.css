@@ -1,29 +1,80 @@
+*{
+    background-color: darkred;
+}
 span {
     font-family: sans-serif;
     font-weight: bolder;
 }  
+
+a {
+    color: black;
+}
+
 header {
-    margin:0;
+    
 
 }
-.home { 
-    
+img {
     position: relative;
-    left:0;
+
+    bottom:60;
+}
+
+.name{
+    font-family: bomb-font;
+    font-size: 50;
+    background-color: grey;
+}
+
+.home { 
+    background-color: grey;
+    position: relative;
+    top: 20;
+    right: 40;
     font-family: gem;
     font-size: 30;
     text-decoration: none;
     padding: 10;
-    
-
 }
 
 body{
     font-family:  gem;
     margin: 0;
+    text-align: center;
+}
 
+p {
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: -550;
+    padding: 30;
+    margin: 500;
+}
+
+#guru {
+    text-align: center;
+    position: relative;
+    top: -1000;
+    padding: 30;
+    margin: 500;
     
 }
+
+section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+}
+
+h2{
+    position: relative;
+    top:50;
+    font-size: 150px;
+}
+
+
 .navbar{
     background-color: grey;
     padding: 20;
@@ -46,10 +97,3 @@ body{
         font-weight: lighter;
     }
 
-.name{
-    font-family: bomb-font;
-    font-size: 50;
-}
-a {
-    color: black;
-}
