@@ -1,0 +1,55 @@
+span {
+    font-family: sans-serif;
+    font-weight: bolder;
+}  
+header {
+    margin:0;
+
+}
+.home { 
+    
+    position: relative;
+    left:0;
+    font-family: gem;
+    font-size: 30;
+    text-decoration: none;
+    padding: 10;
+    
+
+}
+
+body{
+    font-family:  gem;
+    margin: 0;
+
+    
+}
+.navbar{
+    background-color: grey;
+    padding: 20;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+    @font-face{ 
+        font-family:bomb-font;
+        src: url(../fonts/BOMBFONT\ TRIAL.ttf);
+        font-style: normal;
+        font-weight: 100;
+    }
+    @font-face {
+        font-family: gem;
+        src: url(../fonts/Gemstone.ttf);
+        text-decoration: none;
+        font-style: normal;
+        font-weight: lighter;
+    }
+
+.name{
+    font-family: bomb-font;
+    font-size: 50;
+}
+a {
+    color: black;
+}
