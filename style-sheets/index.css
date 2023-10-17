@@ -21,11 +21,12 @@ header {
 
 img {
     position: relative;
-
+left: 650px;
     bottom:60;
 }
 
 .name{
+   margin-left: 50px;
     font-family: bomb-font;
     font-size: 50;
     background-color: grey;
@@ -46,6 +47,7 @@ body{
     font-family:  gem;
     margin: 0;
     text-align: center;
+    bottom: -500px;
     
     
 }
